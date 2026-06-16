@@ -1,0 +1,8 @@
+name = "groble-webhook"
+main = "worker/index.js"
+compatibility_date = "2026-06-17"
+
+[vars]
+DRY_RUN = "false"
+LEADGEN_SEQ = "4e7a457a4d7a553d"
+LEADGEN_RESULT_URL = "https://imaginative-rugelach-adae87.netlify.app/"
