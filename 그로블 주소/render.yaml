@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: groble-leadgen-webhook
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
+    envVars:
+      - key: DRY_RUN
+        value: false
+      - key: LEADGEN_SEQ
+        value: 4e7a457a4d7a553d
+      - key: LEADGEN_RESULT_URL
+        value: https://imaginative-rugelach-adae87.netlify.app/

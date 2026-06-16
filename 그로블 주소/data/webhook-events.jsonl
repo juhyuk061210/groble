@@ -1,0 +1,1 @@
+{"receivedAt":"2026-06-16T17:09:13.386Z","payment":{"name":"test-buyer","orderId":"public-test-001","phone":"01030059897","phoneRaw":"010-3005-9897","product":"course","status":"paid"},"payload":{"status":"paid","buyer_name":"test-buyer","buyer_phone":"010-3005-9897","order_id":"public-test-001","product_name":"course"}}
